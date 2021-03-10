@@ -2,6 +2,16 @@
 
 将您 Twitter 網頁版的“推文”按鈕改爲“鳴叫！”。
 
+在支援安裝並使用 user script 的現代瀏覽器上均可使用。
+由於衆所周知的原因，iOS 上任何瀏覽器均不可使用。
+
+作用於：
+
+- https://twitter.com
+- https://mobile.twitter.com
+- https://tweetdeck.twitter.com
+
+
 == 使用
 
 這是一個 user script。您需要安裝一個 user script manager 如：
