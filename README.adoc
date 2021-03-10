@@ -1,0 +1,22 @@
+= 鳴叫！
+
+将您 Twitter 網頁版的“推文”按鈕改爲“鳴叫！”。
+
+== 使用
+
+這是一個 user script。您需要安裝一個 user script manager 如：
+
+- TamperMonkey
+- GreasyMonkey
+- ViolentMonkey
+
+然後在 https://userscripts.zone 搜尋“鳴叫！”，并點擊結果下方的 Install。
+
+== 爲何？
+
+因爲我可以。
+
+== 許可
+
+BSD 3-Clause License。见 LICENSE 文件。
+
