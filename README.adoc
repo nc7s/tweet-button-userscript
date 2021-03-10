@@ -10,7 +10,8 @@
 - GreasyMonkey
 - ViolentMonkey
 
-然後在 https://userscripts.zone 搜尋“鳴叫！”，并點擊結果下方的 Install。
+打開 https://raw.githubusercontent.com/bnoctis/tweet-button-userscript/main/%E9%B3%B4%E5%8F%AB%EF%BC%81.user.js
+，並按照您的 manager 提示安裝。
 
 == 爲何？
 
