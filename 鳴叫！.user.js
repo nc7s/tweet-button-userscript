@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name			鳴叫！
 // @namespace		https://noctis.im
-// @version	  		0.2
+// @version	  		0.2.1
 // @description		将您 Twitter 網頁版的“推文”按鈕改爲“鳴叫！”。
 // @author			Blair Noctis
 // @match			https://twitter.com/*
@@ -27,7 +27,7 @@
 
 	var sidebarButtonListener
 
-	var periodicInterval = 500
+	var periodicInterval = 100
 	var totalRunCount = 0
 
 	var sidebarChanged = false
@@ -67,7 +67,7 @@
 			if(!sidebarButtonListener) {
 				sidebarButtonListener = sidebarButton.addEventListener('click', function() {
 					console.log('[鳴叫！] 侧栏按鈕按下，開始替換過程')
-					鳴叫()
+					setTimeout(鳴叫, periodicInterval)
 				})
 			}
 		}
